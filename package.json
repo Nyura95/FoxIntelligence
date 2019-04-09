@@ -1,0 +1,37 @@
+{
+  "name": "foxntelligence",
+  "version": "1.0.0",
+  "description": "technical test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "nodemon ./dist/index.js",
+    "build": "tsc --build tsconfig.json --watch",
+    "lint": "tslint src/*.ts -t verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nyura95/FoxIntelligence.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Nyura95",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nyura95/FoxIntelligence/issues"
+  },
+  "homepage": "https://github.com/Nyura95/FoxIntelligence#readme",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.11",
+    "@types/node": "^11.13.2",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^7.0.0",
+    "reflect-metadata": "^0.1.13",
+    "winston": "^3.2.1"
+  }
+}
