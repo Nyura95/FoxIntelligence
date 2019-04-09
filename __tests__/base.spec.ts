@@ -1,6 +1,8 @@
+import 'jest';
+
 describe('Simple expression tests', () => {
 	test('Test value', () => {
-		const test = true;
+		const test: boolean = true;
 		expect(test === true);
 	});
 });
