@@ -20,7 +20,7 @@ const start = async () => {
     const prices: IPrice[] = [];
     const trips: ITrips[] = [];
     const roundTrips: IRoundTrips[] = [];
-    let date: IDateTravel[] = [];
+    const date: IDateTravel[] = [];
 
     const productHeader = column.blockCommand.getProductHeader;
     for (let i = 0; i < productHeader.length; i++) {

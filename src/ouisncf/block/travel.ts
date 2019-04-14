@@ -1,5 +1,5 @@
 import { Selector } from "../selector";
-import { IType, IDateTravel } from "../../interface";
+import { IDateTravel } from "../../interface";
 
 export class Travel extends Selector {
   constructor(private travel: Cheerio) {
