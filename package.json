@@ -6,9 +6,11 @@
   "scripts": {
     "start": "node ./dist/index.js",
     "dev": "nodemon ./dist/index.js",
-    "build": "tsc --build tsconfig.json --watch",
+    "build-dev": "tsc --build tsconfig.json --watch",
+    "build": "tsc --build tsconfig.json",
     "lint": "tslint src/*.ts -t verbose",
-    "test": "jest --forceExit --coverage --verbose --detectOpenHandles"
+    "test": "jest --forceExit --coverage --verbose --detectOpenHandles",
+    "check": "npm run build && npm run start"
   },
   "repository": {
     "type": "git",
