@@ -1,6 +1,18 @@
+export type IType = "Aller" | "Retour" | "N/C";
+
+export interface IHeaderOriginAndDest {
+  origin: string;
+  destination: string;
+}
+
+export interface IDateTravel {
+  to: string;
+  return: string;
+}
+
 export interface IResult {
   status: "ok" | "nok";
-  result: IResultCheerio;
+  result: IResultCheerio | {};
 }
 
 export interface IResultCheerio {
@@ -11,7 +23,7 @@ export interface IResultCheerio {
 export interface ITrips {
   code: string;
   name: string;
-  details: IDetails[];
+  details: IDetails;
 }
 
 export interface IDetails {
@@ -20,12 +32,12 @@ export interface IDetails {
 }
 
 export interface IRoundTrips {
-  type: "Aller" | "Retour";
+  type: IType;
   date: string;
   trains: ITrain[];
 }
 
-export interface IPassager {
+export interface IPassenger {
   type: string;
   age: string;
 }
@@ -35,15 +47,15 @@ export interface ITrain {
   departureStation: string;
   arrivalTime: string;
   arrivalStation: string;
-  type: "TGV";
+  type: string;
   number: string;
-  passengers?: IPassager[];
+  passengers?: IPassenger[];
 }
 
 export interface ICustom {
-  prices: IPrices[];
+  prices: IPrice[];
 }
 
-export interface IPrices {
+export interface IPrice {
   value: number;
 }

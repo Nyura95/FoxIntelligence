@@ -1,0 +1,157 @@
+{
+  "status": "ok",
+  "result": {
+    "trips": [
+      {
+        "code": "SNIKXP",
+        "name": "dupont",
+        "details": {
+          "price": 768.5,
+          "roundTrips": [
+            {
+              "type": "Aller",
+              "date": "2016-09-02 00:00:00.000Z",
+              "trains": [
+                {
+                  "departureTime": "16:57",
+                  "arrivalStation": "PARIS GARE DE LYON",
+                  "arrivalTime": "18:56",
+                  "departureStation": "LYON PART DIEU",
+                  "number": "6687",
+                  "type": "TGV",
+                  "passengers": [
+                    {
+                      "age": "(26 à 59 ans)",
+                      "type": "échangeable"
+                    },
+                    {
+                      "age": "(26 à 59 ans)",
+                      "type": "échangeable"
+                    },
+                    {
+                      "age": "(4 à 11 ans)",
+                      "type": "échangeable"
+                    },
+                    {
+                      "age": "(0 à 3 ans)",
+                      "type": "échangeable"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Retour",
+              "date": "2016-09-04 00:00:00.000Z",
+              "trains": [
+                {
+                  "departureTime": "13:05",
+                  "arrivalStation": "LYON PART DIEU",
+                  "arrivalTime": "15:01",
+                  "departureStation": "PARIS GARE DE LYON",
+                  "number": "6618",
+                  "type": "TGV",
+                  "passengers": [
+                    {
+                      "age": "(26 à 59 ans)",
+                      "type": "échangeable"
+                    },
+                    {
+                      "age": "(26 à 59 ans)",
+                      "type": "échangeable"
+                    },
+                    {
+                      "age": "(4 à 11 ans)",
+                      "type": "échangeable"
+                    },
+                    {
+                      "age": "(0 à 3 ans)",
+                      "type": "échangeable"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Aller",
+              "date": "2016-09-15 00:00:00.000Z",
+              "trains": [
+                {
+                  "departureTime": "16:37",
+                  "arrivalStation": "PARIS GARE DE LYON",
+                  "arrivalTime": "19:17",
+                  "departureStation": "AVIGNON TGV",
+                  "number": "6121",
+                  "type": "TGV",
+                  "passengers": [
+                    {
+                      "age": "(26 à 59 ans)",
+                      "type": "échangeable"
+                    },
+                    {
+                      "age": "(26 à 59 ans)",
+                      "type": "échangeable"
+                    },
+                    {
+                      "age": "(4 à 11 ans)",
+                      "type": "échangeable"
+                    },
+                    {
+                      "age": "(0 à 3 ans)",
+                      "type": "échangeable"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Retour",
+              "date": "2016-09-18 00:00:00.000Z",
+              "trains": [
+                {
+                  "departureTime": "15:42",
+                  "arrivalStation": "AVIGNON TGV",
+                  "arrivalTime": "18:30",
+                  "departureStation": "PARIS GARE DE LYON",
+                  "number": "6122",
+                  "type": "TGV",
+                  "passengers": [
+                    {
+                      "age": "(26 à 59 ans)",
+                      "type": "échangeable"
+                    },
+                    {
+                      "age": "(26 à 59 ans)",
+                      "type": "échangeable"
+                    },
+                    {
+                      "age": "(4 à 11 ans)",
+                      "type": "échangeable"
+                    },
+                    {
+                      "age": "(0 à 3 ans)",
+                      "type": "échangeable"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "custom": {
+      "prices": [
+        {
+          "value": 315.5
+        },
+        {
+          "value": 378
+        },
+        {
+          "value": 75
+        }
+      ]
+    }
+  }
+}
